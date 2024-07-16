@@ -1,0 +1,19 @@
+Authenticate:
+
+POST
+http://localhost:3001/ezelectronics/sessions
+{"username": "customer", "password": "0"}
+
+
+Add review:
+
+POST
+http://localhost:3001/ezelectronics/reviews/XPS
+{"score": 5, "comment": "A very cool smartphone!"}
+
+Delete all revire for product:
+
+DELETE
+http://localhost:3001/ezelectronics/reviews/XPS/all
+no body
+
